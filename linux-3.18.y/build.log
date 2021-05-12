@@ -1,0 +1,18 @@
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf --silentoldconfig Kconfig
+*
+* Restart config...
+*
+*
+* Linux/x86 3.18.24 Kernel Configuration
+*
+64-bit kernel (64BIT) [Y/n/?] (NEW) aborted!
+
+Console input/output is redirected. Run 'make oldconfig' to update configuration.
+
+scripts/kconfig/Makefile:36: recipe for target 'silentoldconfig' failed
+Makefile:550: recipe for target 'silentoldconfig' failed
+
+[1;31m #### make target "build" failed !!!(2 seconds) ####[1;0m
+
